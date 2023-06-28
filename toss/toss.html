@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .center-cover-img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+
+      /* section,div {
+        border: 1px solid red;
+      } */
+
+      .main {
+        height: 980px;
+        background-image: url("./toss/new_main.png");
+      }
+      .container {
+        max-width: 1080px;
+        height: 100%;
+        margin: auto;
+      }
+      .logo-nav {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+      }
+      .nav {
+        display: flex;
+        column-gap: 70px;
+      }
+      .nav ul {
+        list-style-type: none;
+        display: flex;
+        column-gap: 30px;
+        font-size: 14px;
+        color: black;
+        font-weight: 600;
+      }
+      .info{
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .info-msg{
+        font-size: 55px;
+        font-weight: 900;
+      }
+      .btn-group{
+        margin-top: 90px;
+      }
+      .app-btn{
+        background-color:black;
+        color: white;
+        width: 150px;
+        height: 40px;
+        border-style: none;
+        border-radius: 6px;
+      }
+      .app-btn > div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 600;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="main center-cover-img">
+      <div class="container">
+        <div class="logo-nav">
+          <img class="logo" src="./toss/toss-logo.png" height="25" alt="로고" />
+          <div class="nav">
+            <ul>
+              <li>회사 소개</li>
+              <li>고객센터</li>
+              <li>자주 묻는 질문</li>
+              <li>토스 인증서</li>
+              <li>채용</li>
+            </ul>
+            <ul>
+              <li>KOR</li>
+              <li>ㅣ</li>
+              <li>ENG</li>
+            </ul>
+          </div>
+        </div>
+        <div class="info">
+          <div class="info-msg">금융의 모든 것</div>
+          <div class="info-msg">토스에서 쉽고 간편하게</div>
+          <div class="btn-group">
+            <button class="app-btn">
+                <div>
+              <img src="./toss/applekorea.png" height="25" alt="" />
+              <span>app store</span>
+            </div>
+            </button>
+            <button class="app-btn">
+        <div>
+              <img src="./toss/googleplay.png" height="25" alt="" />
+              <span>Google Play</span>
+            </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

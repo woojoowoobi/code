@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div {
+            background-color: red;
+            height: 100px;
+        }
+        
+        span {
+            background-color: blue;
+            /* imline 태크는 span태크는 높이와 넓이가 세팅이 되지 않는다 */
+            height: 100px;
+        }
+
+        .id{
+            background-color: green;
+            height: 100px;
+        }
+        
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div>블록 태그입니다</div>
+    <!-- <span>인라인 태그입니다</span> -->
+    <!-- <span>인라인 태그입니다</span> -->
+    <div class="id" style="display: inline-block">인라인 블록 태그입니다</div>
+    <div class="id" style="display: inline-block">인라인 블록 태그입니다</div>
+</body>
+</html>
