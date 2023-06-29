@@ -1,7 +1,5 @@
 package ch02;
 
-import java.text.Format;
-
 public class S02 {
     public static void main(String[] args) {
         // String str = "저는 홍길동이고 25세입니다";
