@@ -1,5 +1,6 @@
 package ch02;
 
+// ★스케너를 사용할떄 만드시 넣어야 함★
 import java.util.Scanner;
 
 public class S03 {
@@ -11,21 +12,24 @@ public class S03 {
 
         // 스캐너에서 nextInt를 사용하면
         // 입력된 값을 int 타입으로 형변환해서 리턴한다
-        // int nextInt = scanner.nextInt();
-        // System.out.println("나온 값은 " + nextInt);
+        int nextInt = scanner.nextInt();
+        System.out.println("나온 값은 " + nextInt);
 
         // next는 띄어쓰기 기준으로 데이터를 나누어 받는다
-        // String next = scanner.next();
-        // String next1 = scanner.next();
-        // String next2 = scanner.next();
-        // System.out.println(next);
-        // System.out.println(next1);
-        // System.out.println(next2);
+        String next = scanner.next();
+        String next1 = scanner.next();
+        String next2 = scanner.next();
+        System.out.println(next);
+        System.out.println(next1);
+        System.out.println(next2);
 
         // nextLine은 한 줄 기준으로 데이터를 가져온다
         String nextLine = scanner.nextLine();
         System.out.println(nextLine);
-
         scanner.close();
+
+
+        // input=문자열을 정수로 변환할떄 사용
+        int num = Integer.parseInt(input);
     }
 }

@@ -29,7 +29,7 @@ public class S04 {
         boolean check7 = true || false || false || false;
 
 
-
+        // ★ &&가 ||보다 우선순위가 높아서 섞여 있다면 괄호를 쓰자 ★
 
     }
 }

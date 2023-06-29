@@ -14,7 +14,5 @@ public class S05 {
         String man1 = age > 65 ? "할아버지" : (age > 20 ? "아저씨" : "학생");
 
         System.out.println(man1);
-
-
-    }
+}
 }

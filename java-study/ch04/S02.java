@@ -20,7 +20,21 @@ public class S02 {
             System.out.println("숫자가 29보다 큽니다");
         }
 
-        scanner.close();
+    //     scanner.close();
+    //     public static void main(String[] args) {
 
+    //         Scanner scanner = new Scanner(System.in);
+    //         int num = scanner.nextInt();
+
+    //         if (num > 80) {
+    //             System.out.println("합격입니다");
+    //         }
+    //         else if (num >= 80){
+    //             System.out.println("예비합격입니다");
+    //         }
+    //         else {
+    //             System.out.println("불합격입니다");
+    //         }
+    //     }
     }
 }

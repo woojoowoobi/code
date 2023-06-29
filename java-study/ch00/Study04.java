@@ -8,13 +8,17 @@ public class Study04 {
         System.out.println("계산을 시작합니다.");
         System.out.println(a + b);
         System.out.println("계산이 끝났습니다.");
-
     }
-    
-
 
     public static void main(String[] args) {
-       // 함수 사용 시 함수명을 적어주고 소괄호 안에 데이터를 넣어준다
-        printAdd(a:3, b:2);
+        // 함수 사용 시
+        // 함수명을 적어주고
+        // 소괄호 안에 함수가 요구하는 타입의 데이터를 넣어준다
+        printAdd(3, 2);
+        printAdd(4, 2);
+        printAdd(5, 2);
+        printAdd(6, 2);
+        printAdd(7, 2);
+        System.out.println();
     }
 }

@@ -10,21 +10,27 @@ public class S02Quiz {
         // 70점 이상이면 C
         // 60점 이상이면 D
         // 60점 미만이면 F
-        Scanner scanner = new Scanner(System.in);
+        
+        int nextInt = 0; // 점수를 저장하기 위한 변수
+        char grade = ' '; // 학점을 저장하기 위한 변수, 공백으로 초기화 한다
 
-        int nextInt = scanner.nextInt();
+        System.out.println("점수를 입력하세요.>");
+        Scanner scanner = new Scanner(System.in);
+        nextInt = scanner.nextInt();
+       
 
         if (nextInt >= 90) {
-            System.out.println("A");
+            grade = 'A';
         } else if (nextInt >= 80) {
-            System.out.println("B");
+            grade = 'B';
         } else if (nextInt >= 70) {
-            System.out.println("C");
+            grade = 'C';
         } else if (nextInt >= 60) {
-            System.out.println("D");
+            grade = 'D';
         } else {
-            System.out.println("F");
+            grade = 'F';
         }
+        System.out.println("당신의 학점은 "+ grade +"입니다.");
 
         scanner.close();
     }
