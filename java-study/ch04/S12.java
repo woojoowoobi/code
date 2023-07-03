@@ -62,6 +62,5 @@ public class S12 {
         //     }
         //     System.out.println("*");
         // }
-
     }
 }

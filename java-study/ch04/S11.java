@@ -8,7 +8,7 @@ public class S11 {
         do {
             System.out.println(i);
             i++;
-        } while (i < 11);
+        } while (i < 11); // 필히 while 문뒤에 ;세미클론 잊지않기!
 
     }
 }

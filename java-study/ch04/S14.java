@@ -28,15 +28,15 @@ public class S14 {
         // 행이 3개
         // 열에 있는 공백이 0개 1개 2개
         // 열에 있는 별이 5개 3개 1개 
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < i; j++) {
-                System.out.print(" ");
-            }
-            for (int j = 5; j > i * 2; j--) {
-                System.out.print("*");
-            }
-            System.out.println();
-        }
+        // for (int i = 0; i < 3; i++) {
+        //     for (int j = 0; j < i; j++) {
+        //         System.out.print(" ");
+        //     }
+        //     for (int j = 5; j > i * 2; j--) {
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
+        // }
 
         // 구구단
         // 2 X 1 = 2
