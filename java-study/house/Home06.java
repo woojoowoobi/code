@@ -1,3 +1,4 @@
+package house;
 import java.util.Arrays;
 
 public class Home06 {

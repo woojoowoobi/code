@@ -1,3 +1,4 @@
+package house;
 public class Home04 {
 
     public static void main(String[] args) {

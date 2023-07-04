@@ -1,3 +1,4 @@
+package house;
 public class Home05 {
     public static void main(String[] args) {
         // 2중 for 문 구구단
