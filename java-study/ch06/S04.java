@@ -1,31 +1,30 @@
-// package ch06;
+package ch06;
 
-// class Cat {
-//     static int countCat = 0;
-//     String name;
+class Cat1 {
+    static int countCat = 0;
+    String name;
 
-//     public Cat() {
-//         this.name = "길고양이";
-//         Cat.addCat();
-//     }
+    public Cat1() {
+        this.name = "길고양이";
+        Cat1.addCat();
+    }
 
-//     public static void addCat() {
-//         Cat.countCat++;
-//         System.out.println("새로운 고양이가 태어났습니다.");
-//     }
+    public static void addCat() {
+        Cat1.countCat++;
+        System.out.println("새로운 고양이가 태어났습니다.");
+    }
 
-// }
+}
 
-// public class S04 {
-//     public static void main(String[] args) {
+public class S04 {
+    public static void main(String[] args) {
 
-//         new Cat();
-//         new Cat();
-//         new Cat();
-//         new Cat();
-//         new Cat();
+        new Cat1();
+        new Cat1();
+        new Cat1();
+        new Cat1();
+        new Cat1();
+        System.out.println("고양이의 수는 " + Cat1.countCat);
 
-//         System.out.println("고양이의 수는 " + Cat.countCat);
-
-//     }
-// }
+    }
+}
